@@ -16,4 +16,12 @@ fun main() {
     println(alphabet)
     println(greeting)
     println(isKotlinInteresting)
+
+
+    //Type casting
+    var result1 = number.toDouble()
+    println(result1)
+
+    var output = mydecimal.toInt()
+    println(output)
 }
