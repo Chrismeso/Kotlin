@@ -34,6 +34,48 @@ fun main() {
 
     }
 
+    //do while loop
+
+    var num2 = 30
+    do{
+        println(num2)
+        num2++
+
+    }
+        while (num2<=35)
+
+        // for loop
+
+        for (num3 in 1..5){
+            println("Number : $num3")
+        }
+
+    for (letter in 'a'..'f'){
+        println("Letter is $letter")
+    }
+    for (z in 20..25){
+        if (z == 23){
+            break
+        }
+        println(z)
+    }
+     for (ournumber in 185..190){
+         if (ournumber == 187){
+             continue
+         }
+         println(ournumber)
+     }
+    for (myletter in 'a'..'d'){
+        if (myletter=='b'){
+            continue
+        }
+        println(myletter)
+    }
+
+
+
+
+
 
 
 }
